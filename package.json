@@ -1,6 +1,6 @@
 {
-  "name": "kit",
-  "version": "0.0.0",
+  "name": "ngx-ui-kit",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -9,9 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "pack": "ng-packagr -p ng-package.json"
+    "pack": "ng-packagr -p ng-package.json && cd dist && npm pack && cd .."
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^5.0.0",
     "@angular/common": "^5.0.0",
