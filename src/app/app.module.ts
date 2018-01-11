@@ -3,14 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-
+import { KitModule } from './kit/kit.module';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    KitModule
   ],
   providers: [],
   bootstrap: [AppComponent]
